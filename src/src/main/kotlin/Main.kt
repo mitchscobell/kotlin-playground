@@ -8,7 +8,8 @@ fun main(args: Array<String>) {
     // https://www.codecademy.com/courses/learn-kotlin/lessons/kotlin-data-types-variables/exercises/introduction
     mutableVariables();
     immutableVariables();
-    typeInterfaces()
+    typeInterfaces();
+    favoriteSong();
 }
 
 fun mutableVariables() {
@@ -27,4 +28,15 @@ fun typeInterfaces() {
 
     // Declare your variable above ⬆️
     print("${typeTest::class.simpleName}")
+}
+
+fun favoriteSong() {
+    // Write your code below
+    var favoriteSong: String = "Two Weeks"
+    var songDuration: Int = 4
+    var currentlyListening: Boolean = false
+    println("My Favorite Song is ${favoriteSong}")
+    println("My Favorite Song is about ${songDuration} minutes long")
+    println("Am I currently listening? ${currentlyListening}")
+
 }
