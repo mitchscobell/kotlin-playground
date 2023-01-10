@@ -13,6 +13,7 @@ fun main(args: Array<String>) {
     favoriteSong()
     readingInSomeStuff()
     compilingByHand()
+    wordCapitalizationAndSize()
 }
 
 fun mutableVariables() {
@@ -78,5 +79,16 @@ fun compilingByHand() {
     println("\nYou can run it then manually by running this command:")
     println("java -jar myCode.jar")
     println("*************************************************")
+}
+
+fun wordCapitalizationAndSize() {
+    var word = "supercalifragilisticexpialidocious"
+
+    // Write your code below ☂️
+
+    word = word.capitalize()
+    var wordSize = word.length
+
+    println("$word has $wordSize letters.")
 }
 
