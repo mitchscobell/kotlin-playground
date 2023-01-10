@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
 
 fun mutableVariables() {
     var someDate: String = "01/10/2023";
-    println(someDate);
+    println(someDate)
 }
 
 fun immutableVariables() {
