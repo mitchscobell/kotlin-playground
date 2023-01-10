@@ -11,6 +11,8 @@ fun main(args: Array<String>) {
     immutableVariables()
     typeInterfaces()
     favoriteSong()
+    readingInSomeStuff()
+    compilingByHand()
 }
 
 fun mutableVariables() {
@@ -62,3 +64,19 @@ fun stringsAndStuff() {
 
     var emoji = "🤓"
 }
+
+fun readingInSomeStuff() {
+    println("What is your name?")
+    var myName = readLine()
+    println("Your name is $myName!")
+}
+
+fun compilingByHand() {
+    println("*************************************************")
+    println("\nIf you want to compile by hand run this command:")
+    println("kotlinc myCode.kt -include-runtime -d myCode.jar")
+    println("\nYou can run it then manually by running this command:")
+    println("java -jar myCode.jar")
+    println("*************************************************")
+}
+
