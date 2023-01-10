@@ -8,6 +8,7 @@ fun main(args: Array<String>) {
     // https://www.codecademy.com/courses/learn-kotlin/lessons/kotlin-data-types-variables/exercises/introduction
     mutableVariables();
     immutableVariables();
+    typeInterfaces()
 }
 
 fun mutableVariables() {
@@ -19,4 +20,11 @@ fun immutableVariables() {
     // val is used like const
     val pi: Double = 3.14
     println(pi);
+}
+
+fun typeInterfaces() {
+    var typeTest = "6"
+
+    // Declare your variable above ⬆️
+    print("${typeTest::class.simpleName}")
 }
