@@ -1,3 +1,5 @@
+import Numbers
+
 fun main(args: Array<String>) {
     println("Hello World!")
 
@@ -14,6 +16,9 @@ fun main(args: Array<String>) {
     readingInSomeStuff()
     compilingByHand()
     wordCapitalizationAndSize()
+
+    val numbersClass = Numbers()
+    numbersClass.meals()
 }
 
 fun mutableVariables() {
