@@ -2,14 +2,15 @@ fun main(args: Array<String>) {
     println("Hello World!")
 
     // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
+    // Learn more about running applications:
+    // https://www.jetbrains.com/help/idea/running-applications.html.
     println("Program arguments: ${args.joinToString()}")
 
     // https://www.codecademy.com/courses/learn-kotlin/lessons/kotlin-data-types-variables/exercises/introduction
-    mutableVariables();
-    immutableVariables();
-    typeInterfaces();
-    favoriteSong();
+    mutableVariables()
+    immutableVariables()
+    typeInterfaces()
+    favoriteSong()
 }
 
 fun mutableVariables() {
@@ -20,7 +21,7 @@ fun mutableVariables() {
 fun immutableVariables() {
     // val is used like const
     val pi: Double = 3.14
-    println(pi);
+    println(pi)
 }
 
 fun typeInterfaces() {
@@ -38,5 +39,26 @@ fun favoriteSong() {
     println("My Favorite Song is ${favoriteSong}")
     println("My Favorite Song is about ${songDuration} minutes long")
     println("Am I currently listening? ${currentlyListening}")
+}
 
+fun stringsAndStuff() {
+    // Strings
+
+    val landmark = "Statue of Liberty 🗽"
+    val city = "New York"
+    val country = "USA"
+
+    // Characters
+
+    var letter = 'A'
+    var digit = '1'
+    var symbol = '*'
+
+    // Fun fact
+
+    /* A single emoji is made up of Unicode characters.
+    Thus, it will be interpreted as a String
+    and must always be wrapped in double quotes:  */
+
+    var emoji = "🤓"
 }
