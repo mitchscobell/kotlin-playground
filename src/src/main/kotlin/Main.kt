@@ -22,6 +22,7 @@ fun main(args: Array<String>) {
 
     val conditional = Conditional()
     conditional.learningSyntax()
+    conditional.whenStatements()
 }
 
 fun mutableVariables() {
