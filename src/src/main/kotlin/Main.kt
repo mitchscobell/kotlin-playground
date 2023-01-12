@@ -18,6 +18,10 @@ fun main(args: Array<String>) {
     val numbers = Numbers()
     numbers.meals()
     numbers.numberFacts()
+    numbers.mathFunctions()
+
+    val conditional = Conditional()
+    conditional.learningSyntax()
 }
 
 fun mutableVariables() {

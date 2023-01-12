@@ -47,6 +47,29 @@ class Numbers {
         println("Sheldon's favorite number is ${sheldonsFavoriteNum}.")
         println("The emergency number in the United States is ${emergency}.")
         println("The first counting number in programming is ${firstCountingNum}.")
+    }
+
+    fun mathFunctions() {
+
+        var ceil = Math.ceil(3.5)
+        println(ceil)
+        // Add your notes below
+        println("ceil goes to the next whole number")
+
+        var sqrt = Math.sqrt(25.0)
+        println(sqrt)
+        // Add your notes below
+        println("sqrt does the square root")
+
+        var abs = Math.abs(-20)
+        println(abs)
+        // Add your notes below
+        println("abs does absolute value")
+
+        var floor = Math.floor(6.9)
+        println(floor)
+        // Add your notes below
+        println("floor rounds down to the next whole number")
 
     }
 }
