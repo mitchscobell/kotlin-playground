@@ -22,6 +22,25 @@ class Collections {
         openBroadwayShows[2] = "Wicked"
 
         println(openBroadwayShows)
+    }
+
+    fun sizeOfLists() {
+        // Write your code below 🍎
+
+        var fruitTrees = mutableListOf("Apple", "Plum", "Pear", "Cherry")
+
+        println("I am growing ${fruitTrees.size} different types of fruit in my garden.")
+    }
+
+    fun removingAndAddingToAList() {
+        val planets = mutableListOf("Mercury", "Venus", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto")
+
+        // Can remove an element based on name 🪐
+        planets.remove("Pluto")
+        println(planets)
+        planets.add("Earf")
+        println(planets)
+        println(planets.random())
 
     }
 }

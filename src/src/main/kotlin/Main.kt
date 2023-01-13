@@ -28,8 +28,10 @@ fun main(args: Array<String>) {
     conditional.scovilleScale()
 
     val collections = Collections()
-    collections.immutableLists();
-    collections.accessingItemsInList();
-    collections.mutableLists();
+    collections.immutableLists()
+    collections.accessingItemsInList()
+    collections.mutableLists()
+    collections.sizeOfLists()
+    collections.removingAndAddingToAList()
 }
 
