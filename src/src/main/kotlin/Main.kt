@@ -36,5 +36,9 @@ fun main(args: Array<String>) {
 
     val sets = Sets()
     sets.obsoleteTechSet()
+    sets.elementsOfSets()
+    sets.apolloLandingSites()
+    sets.uniqueSets()
+    sets.additionalSetFunctions()
 }
 

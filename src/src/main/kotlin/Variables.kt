@@ -52,7 +52,8 @@ class Variables {
 
     fun readingInSomeStuff() {
         println("What is your name?")
-        var myName = readLine()
+        //var myName = readLine()
+        var myName = "Mitchy"
         println("Your name is $myName!")
     }
 
