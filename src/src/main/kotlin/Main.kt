@@ -33,5 +33,8 @@ fun main(args: Array<String>) {
     collections.mutableLists()
     collections.sizeOfLists()
     collections.removingAndAddingToAList()
+
+    val sets = Sets()
+    sets.obsoleteTechSet()
 }
 
