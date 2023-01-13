@@ -29,5 +29,7 @@ fun main(args: Array<String>) {
 
     val collections = Collections()
     collections.immutableLists();
+    collections.accessingItemsInList();
+    collections.mutableLists();
 }
 
