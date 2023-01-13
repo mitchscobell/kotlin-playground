@@ -26,5 +26,8 @@ fun main(args: Array<String>) {
     conditional.learningSyntax()
     conditional.whenStatements()
     conditional.scovilleScale()
+
+    val collections = Collections()
+    collections.immutableLists();
 }
 
